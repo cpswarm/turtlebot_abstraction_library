@@ -1,0 +1,5 @@
+map_pose_topic:     amcl_pose                        # Topic for receiving the position of the CPS in map coordinates.
+target_cost_topic:  cps_selection                    # Topic to send the computed cost to reach target.
+cps_selected_topic: bridge/events/cps_selected       # Topic to receive selection response
+UUID_topic:         bridge/uuid                      # Topic to receive node UUID 
+move_base_action:     move_base                   # Topic to send the robot to somewhere

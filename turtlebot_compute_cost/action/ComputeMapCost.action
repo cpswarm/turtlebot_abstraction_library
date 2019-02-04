@@ -1,0 +1,10 @@
+# Define the goal
+uint32 target_id						# ID of the target
+string sender_UUID 						# ID of the CPS asking for cost computation
+geometry_msgs/PoseStamped local_pose				# Position of the target
+---
+# Define the result
+uint32 target_id						# ID of the target
+geometry_msgs/PoseStamped local_pose				# Position of the target
+---
+# Define the feeeback
